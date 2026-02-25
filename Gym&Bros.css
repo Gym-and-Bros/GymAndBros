@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    text-align: center;
+}
+.wrapper{
+    width: 1170px; /* Fix this to relative */
+    margin: 0 auto;
+}
+header{
+    height: 100px;
+    background: #262626;
+    width: 100%;
+    z-index: 12;
+    position: fixed;
+}
+.logo{
+    width: 30%;
+    float: left;
+    line-height: 100px; 
+}
+.logo a{
+    text-decoration: none;
+    font-size: 40px;
+    font-family: 'BigNoodleTitling', sans-serif; 
+    color: #fff;
+    letter-spacing: 3px;
+    border: 2px solid #fff; /* Style */
+    border-radius: 8px; 
+    /* border-left: 10px;  
+    border-right: 10px ; */ /* Extra Style */
+    padding: 1px 1px 1px 5px;
+}
+.bros{
+    font-size: 33px;
+}
+nav{
+    float: right;
+    line-height: 100px;
+}
+nav a{
+    text-decoration: none;
+    font-family: 'BigNoodleTitling', sans-serif; 
+    letter-spacing: 4px;
+    font-size: 25px;
+    margin:  0 10px;
+    color: #fff;
+}
+.banner{
+    width: 100%;
+    height: 350px;
+    position: fixed;
+    top: 100px;
+    background-image: url(data/main-backround.jpg) ;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center ;
+}
+.banner h2{
+    padding-top: 4%;
+    font-size: 120px;
+    letter-spacing: 5px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 0 0 8px #262626; 
+}
+.content{
+    width: 100%; /* ? */
+    position: relative;
+    display: flex;
+    top: 450px;
+    background: #eee;
+    height: 650px; /* befor  1500 */
+    padding-bottom: 100px;
+}
+.content h2{
+    font-family: 'BigNoodleTitling', sans-serif; 
+    letter-spacing: 4px;
+    padding-top: 30px;
+    font-size: 40px;
+    margin: 0;
+}
+.content p{
+    padding: 2% 0;
+    font-family: 'Merienda', sans-serif; 
+    line-height: 30px;
+}
+.back{
+    margin-top: 350px;
+    position: relative; /* extra */
+    background-color: #262626;
+    text-decoration: none;
+    color: #fff;
+    padding-top: 20px /* extra 420 */
+}
+.footer-1{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 250px;
+}
+.footer-2{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.footer-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-3 h3{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'BigNoodleTitling', sans-serif; 
+    color: #fff;
+    letter-spacing: 2px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    padding: 1px 1px 1px 4px;
+    font-weight: 200;
+}
+.bros2{
+    font-size: 16px;
+    font-weight: 200;
+}
+footer h6{
+    padding-top: 3px;
+    font-size: 16px;
+}
+footer p{
+    opacity: 70%;
+    display: flex;
+    justify-content: center;
+    color: #eee;
+    font-size: 13px;
+    padding-bottom: 5px;
+}
